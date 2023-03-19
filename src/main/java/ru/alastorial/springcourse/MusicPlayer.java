@@ -88,12 +88,12 @@ public class MusicPlayer {
 //        }
     }
 
-    @PostConstruct
+//    @PostConstruct
     public void doInit() {
         System.out.println("Запуск плеера");
     }
 
-    @PreDestroy
+//    @PreDestroy
     public void doDestroy() {
         System.out.println("Остановка плеера");
     }

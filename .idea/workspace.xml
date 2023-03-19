@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc506aeb-9f4e-4d87-970e-2873d8801d15" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bc506aeb-9f4e-4d87-970e-2873d8801d15" name="Changes" comment="/">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/Prac10/Junior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/Prac10/Middle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/Prac10/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/Prac10/Senior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/CalmMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/CalmMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/Music.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/TypeOfMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alastorial/springcourse/TypeOfMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +55,7 @@
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.alastorial.springcourse.TestSpring" />
       <module name="SpringTheory" />
+      <option name="PROGRAM_PARAMETERS" value="junior" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.alastorial.springcourse.*" />
@@ -91,8 +87,16 @@
       <workItem from="1677430042192" duration="27000" />
       <workItem from="1678094835547" duration="4003000" />
       <workItem from="1678960261698" duration="19000" />
-      <workItem from="1679234132291" duration="607000" />
+      <workItem from="1679234132291" duration="1876000" />
     </task>
+    <task id="LOCAL-00001" summary="/">
+      <created>1679234763486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679234763486</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,5 +112,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="/" />
+    <option name="LAST_COMMIT_MESSAGE" value="/" />
   </component>
 </project>
