@@ -1,2 +1,6 @@
-package ru.alastorial.springcourse;public class TypeOfMusic {
+package ru.alastorial.springcourse;
+
+public enum TypeOfMusic {
+    ROCK,
+    CLASSICAL
 }

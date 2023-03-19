@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="ru.alastorial.springcourse"/>
+    
+    <context:property-placeholder location="musicPlayer.properties"/>
+
+<!--    <bean id="clamMusicBean"-->
+<!--          class="ru.alastorial.springcourse.CalmMusic"-->
+<!--          factory-method="factoryMethod">-->
+<!--    </bean>-->
+
+<!--    <bean id="musicBean"-->
+<!--          class="ru.alastorial.springcourse.ClassicalMusic">-->
+<!--    </bean>-->
+
+
+<!--    <bean id="classicalMusicBean"-->
+<!--          class="ru.alastorial.springcourse.ClassicalMusic">-->
+<!--    </bean>-->
+<!--    <bean id="rockMusicBean"-->
+<!--          class="ru.alastorial.springcourse.RockMusic">-->
+<!--    </bean>-->
+
+
+<!--    <bean id="musicPlayer"-->
+<!--          class="ru.alastorial.springcourse.MusicPlayer"-->
+<!--          scope="singleton"-->
+<!--          init-method="doInit" destroy-method="doDestroy">-->
+
+<!--        &lt;!&ndash;        <constructor-arg ref="musicBean"/>&ndash;&gt;-->
+<!--        <property name="music" ref="musicBean"/>-->
+<!--        <property name="name" value="${musicPlayer.name}"/>-->
+<!--        <property name="volume" value="${musicPlayer.volume}"/>-->
+<!--        <property name="musicList">-->
+<!--            <list>-->
+<!--                <ref bean="classicalMusicBean"/>-->
+<!--                <ref bean="rockMusicBean"/>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+</beans>
